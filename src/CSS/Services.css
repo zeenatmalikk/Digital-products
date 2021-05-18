@@ -56,18 +56,4 @@ width: auto;
     
 }
 
-.card2 {
-    /* background-color: green; */
-    align-content: center;
-    justify-content: left;
-    align-items: center;
-    display: flex;
-}
 
-.card3 {
-    /* background-color: yellow; */
-    align-content: center;
-    justify-content: left;
-    align-items: center;
-    display: flex;
-}

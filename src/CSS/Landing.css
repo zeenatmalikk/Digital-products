@@ -1,0 +1,13 @@
+.img-landing{
+height: 240px;
+ width: 290px;
+ justify-content: center;
+ align-content: center;
+ display: flex;
+ margin-right: auto;
+ margin-left: auto;
+ /* width: fit-content; */
+ /* align-items: stretch; */
+
+ background-color: #F2E6DD;
+}

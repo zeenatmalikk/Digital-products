@@ -40,7 +40,7 @@ const useStyles = makeStyles(() => ({
     fontWeight:"bold",
     marginblockend: 0,
     marginblockstart: 0,
-    maxWidth: 450,
+    maxWidth: 490,
     color:"#A9AED7"
   },
 }));
@@ -70,7 +70,7 @@ const Services = () => {
 
       <Container style={{ padding: 0, }}>
         <Grid container className="servicecont" >
-          <Grid item md={4} xs={12} className="card1">
+          <Grid item md={4} xs={12} style={{paddingBottom:"15px"}}>
             {/* <Card className="card-services">
               <Card container> */}
             <div className="card1-services">
@@ -88,7 +88,7 @@ const Services = () => {
             {/* </Card>
             </Card> */}
           </Grid>
-          <Grid item md={4} xs={12} className="card2">
+          <Grid item md={4} xs={12} style={{paddingBottom:"15px"}} >
             {/* <Card className="card-services">
               <Card container> */}
             <div className="card2-services">
@@ -106,7 +106,7 @@ const Services = () => {
             {/* </Card>
             </Card> */}
           </Grid>
-          <Grid item md={4} xs={12} className="card3">
+          <Grid item md={4} xs={12} style={{paddingBottom:"15px"}} >
             {/* <Card className="card-services"> */}
             {/* <Card container> */}
             <div className="card-services">

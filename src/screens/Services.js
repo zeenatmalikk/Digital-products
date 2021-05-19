@@ -88,7 +88,7 @@ const Services = () => {
             {/* </Card>
             </Card> */}
           </Grid>
-          <Grid item md={4} xs={12} style={{paddingBottom:"15px"}} >
+          <Grid item md={4} xs={12} sm={12} style={{paddingBottom:"15px", }} >
             {/* <Card className="card-services">
               <Card container> */}
             <div className="card2-services">
@@ -106,10 +106,10 @@ const Services = () => {
             {/* </Card>
             </Card> */}
           </Grid>
-          <Grid item md={4} xs={12} style={{paddingBottom:"15px"}} >
+          <Grid item md={4} xs={12} style={{paddingBottom:"15px" , }} >
             {/* <Card className="card-services"> */}
             {/* <Card container> */}
-            <div className="card-services">
+            <div className="card2-services">
               <img
                 className="card1-img"
                 src="https://img-premium.flaticon.com/png/512/3079/3079022.png?token=exp=1621249987~hmac=9d1a0ba5d657355706f7401ca5cee797"

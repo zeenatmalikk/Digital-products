@@ -1,13 +1,27 @@
-.img-landing{
-height: 240px;
- width: 290px;
- justify-content: center;
- align-content: center;
- display: flex;
- margin-right: auto;
- margin-left: auto;
- /* width: fit-content; */
- /* align-items: stretch; */
 
- background-color: #F2E6DD;
+
+ul{
+    position: relative;
+    right: 0;
+}
+
+ul li{
+    display: inline;
+    padding-right: 19px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    right: 0;
+}
+
+.btn{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+.nav{
+display: flex;
+justify-content: center;
+align-content: center;
+position: fixed;
 }

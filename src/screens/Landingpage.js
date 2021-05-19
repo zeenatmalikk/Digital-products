@@ -1,66 +1,97 @@
-import { Container, Grid, makeStyles, Typography } from "@material-ui/core";
+import {
+  Button,
+  Container,
+  Grid,
+  makeStyles,
+  Typography,
+} from "@material-ui/core";
 import React from "react";
 import "../CSS/Landing.css";
 
 const useStyles = makeStyles(() => ({
-    heading: {
-        textAlign: "center",
-        fontSize: 48,
-        paddingTop: "15px",
-        paddingBottom: "15px",
-        fontWeight:550,
-        // marginblockend: 0,
-        // marginblockstart: 0,
-        maxWidth: 450,
-      },
-      heading_name: {
-        textAlign: "center",
-        fontSize: 22,
-        paddingTop: "15px",
-        fontWeight:"bold",
-        marginblockend: 0,
-        marginblockstart: 0,
-        maxWidth: 490,
-        color:"#A9AED7"
-      },
+  heading: {
+    width: "400px",
+    fontFamily: "Times New Roman",
+    fontSize: 39,
+    textAlign: "center",
+  },
+  heading_name: {
+    width: "400px",
+    fontFamily: "Times New Roman",
+    fontSize: 19,
+    textAlign: "center",
+  },
+  canvas: {
+    fontFamily: "Lucida",
+    fontSize: 29,
+    textAlign: "center",
+    paddingTop: 8,
+    fontWeight: "bold",
+  },
 }));
 
 const Landingpage = () => {
   const classes = useStyles();
   return (
-    <div style={{backgroundColor:"#F2E6DD"}}>
-        <div
-        style={{
-          display: "flex",
-          flexDirection:"column",
-          justifyContent: "center",
-          alignContent: "center",
-          alignItems:"center",
-          
-        }}
-      >
-          <Typography className={classes.heading_name}>
-              Services
-          </Typography>
-        <Typography className={classes.heading} variant="h3">
-          We help bring your stories to life
-        </Typography>
-      </div>
-      <Container style={{  padding: 0 }}>
-        <Grid container style={{ backgroundColor: "blue" }}>
-          <Grid style={{ backgroundColor: "pink",alignContent:"center", justifyContent:"center", display:"flex", backgroundColor:"green", flexDirection:"column", alignItems:"center", textAlign:"center",  }} item md={12} xs={12}>
+    <div>
+      {/* <Grid container style={{ backgroundColor: "whitesmoke", height: "8vh" }}>
+        <Grid item md={3} xs={3}>
+          <nav>
+            <Typography className={classes.canvas}>Canva Creations</Typography>
+          </nav>
+        </Grid>
+        <Grid item md={5} xs={1} />
+        <Grid item md={4} xs={2}>
+          <div className="nav">
+            <ul>
+              <li>Home</li>
+              <li>Services</li>
+              <li>Blog</li>
+              <li>About</li>
+              <Button className="btn" variant="outlined">
+                contact
+              </Button>
+            </ul>
+          </div>
+        </Grid>
+      </Grid> */}
+      <Container style={{  padding: 0 , }}>
+        <Grid
+          container
+          style={{
+            padding: 0,
+            justifyContent: "center",
+            display: "flex",
+            flexDirection: "column",
+            alignContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Grid item md={12} xs={12} sm={12}>
+            <Typography className={classes.heading}>
+              We craft digital products for your buiseness
+            </Typography>
+            <Typography className={classes.heading_name}>
+              Canva co. is a visual branding and design agency. we partner with
+              brands to bring their stories to life
+            </Typography>
+          </Grid>
+        </Grid>
+        <Grid
+          item
+          md={12}
+          xs={12}
+          sm={12}
+         
+        >
+          <div style={{width: "100%",justifyContent: "center",
+            alignContent: "center",
+            display: "flex", }}>
+        <img style={{height:"180px"}} src="https://cdn.dribbble.com/users/115364/screenshots/13449013/media/f00f52b2c2bbf158540f29c530660574.jpg?compress=1&resize=1600x1200"/>
             
-           
-          </Grid>
-          </Grid>
-          <Grid container>
-              <Grid item md={12}>
-              {/* <div style={{alignContent:"center", justifyContent:"center", display:"flex", backgroundColor:"greenyellow", width:340, alignItems:"center"}}> */}
-                <img className="img-landing" src="https://cdn.dribbble.com/users/1090020/screenshots/14073692/media/d56030d03319818f9a9bd1b1c8152dae.png?compress=1&resize=1600x1200"/>
-            {/* </div> */}
-              </Grid>
-          </Grid>
-       
+            
+            </div>{" "}
+        </Grid>
       </Container>
     </div>
   );

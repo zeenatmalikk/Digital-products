@@ -10,9 +10,11 @@ function App() {
   return (
     <div >
      {/* <Services/> */}
-     {/* <Platform/> */}
-     {/* <Landingpage/> */}
-     <Blog/>
+     
+     <Landingpage/>
+    {/* <Platform/> */}
+     {/* <Blog/> */}
+
     </div>
   );
 }

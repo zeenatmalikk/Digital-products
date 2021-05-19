@@ -39,7 +39,7 @@ const useStyles = makeStyles(() => ({
 const Blog = () => {
   const classes = useStyles();
   return (
-    <div>
+    <div >
       <Container style={{ padding: 0, }}>
         <Grid container>
           <Grid item md={6} xs={12} style={{ paddingTop:9 }}>
